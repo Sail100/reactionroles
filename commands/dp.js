@@ -44,7 +44,7 @@ module.exports.run = async (client, message, args) => {
 				.setDescription('Click on the buttons to grant yourself a role!')
 				.setColor('WHITE')
 				.setTimestamp()
-        .setFooter("Bot made by itsMC#79997 | Prefix: !!")
+        .setFooter("Bot made by itsMC#7997 | Prefix: !!")
 			Nuggies.dropdownroles.create({ message: message, content: embed, role: dpmanager, channelID: message.channel.id })
 		}
 	});
